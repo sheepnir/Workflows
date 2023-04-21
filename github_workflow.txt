@@ -17,9 +17,19 @@ Step 2- Clone the code library to your machine
 Step 3 - Modified stage
 - (Run git status to make sure that your working tree is clear before you start making modifications)
 - Open in VSCode and add the files you need to add/chage
-- Run git add
+- Run git add . (or file_name). 
 - if need to revert, use git restore --staged <file>
 
 Step 4 - Staged stage
+- git comiit -m "Message"
+- use "git push" to publish your local commits
 
 Step 5 - Committed Stage
+- (Run git status to make sure that your working tree is clear before you start making modifications)
+- Create a new branch by using git checkout -B <branch name> (create branch and move there)
+- For branch names - use: 
+    -   fix for bug fixes
+    -   Update - for updates
+    -   feature/name - for new features
+- Use git branch to see where you are
+
