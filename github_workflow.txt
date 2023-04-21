@@ -1,0 +1,25 @@
+GitHub workflow 
+----------------
+Step 1 - Login to GitHub and create a new repo
+- Always have a README.md file
+- .gitignore is mandatory for code files only
+
+Step 2- Clone the code library to your machine
+- Our preferred method is https, but you can also set up an SSH key
+- For https - ensure to use the key from the 1Password shared account
+- For SSH, see the GitHub docs to generate your SSH key and associate it with your account
+- Go to your home directory and add a folder Development. Next, create a subfolder for all the inflight projects; call it projects. This will host all the WIP code projects that you are working on. (Skip this step if this is not your first rodeo).
+- Go to this folder and run git clone using the https/SSH
+- Enter the user name and key (NOT Password)
+(You just created a new folder pointing to your repo's main branch. The repo has the .git, .git ignore, and README.md files)
+- because we use git clone, there is no need to use got init
+
+Step 3 - Modified stage
+- (Run git status to make sure that your working tree is clear before you start making modifications)
+- Open in VSCode and add the files you need to add/chage
+- Run git add
+- if need to revert, use git restore --staged <file>
+
+Step 4 - Staged stage
+
+Step 5 - Committed Stage
