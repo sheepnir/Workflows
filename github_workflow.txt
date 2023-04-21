@@ -1,5 +1,5 @@
-GitHub workflow 
-----------------
+GitHub workflow - Remote Repo
+----------------------------------
 Step 1 - Login to GitHub and create a new repo
 - Always have a README.md file
 - .gitignore is mandatory for code files only
@@ -32,4 +32,24 @@ Step 5 - Committed Stage
     -   Update - for updates
     -   feature/name - for new features
 - Use git branch to see where you are
+- use git push -u origin <branch name> (move to the new branch)
+
+Step 6 - Review and Merge
+- open github.com
+- Go to pull requests 
+- Review the code 
+ - Merge
+ - Use git remote -v
+
+
+ Github Workflow - Local Repo
+ ------------------------------
+ Step 1 - Initiate local Repo
+ - Use mkdir and create a new folder
+ - run git init from this folder
+
+Step 2 - Connect to a remote repo
+- use git remote add origin git@github.com:token/my-repo 
+- Run git pull to get all recent updates
+- Run git push origin main
 
