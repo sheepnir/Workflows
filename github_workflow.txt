@@ -1,3 +1,11 @@
+General Git workflow
+-------------------------
+Step 1 - "git pull" from the main branch to ensure you have the latest updates
+Step 2 - "git checkout -b feature/<New Branch>"  to create a new working branch
+Step 3 - "git add README.md" or "git add ." - adding new files and changes
+Step 4 - "git commit -m "message goes here" - to commit the changes to the local branch
+Step 5 - "git push" - to move all committed changes to the remote repo
+
 GitHub workflow 
 ----------------
 Step 1 - Login to GitHub and create a new repo
@@ -16,7 +24,7 @@ Step 2- Clone the code library to your machine
 
 Step 3 - Modified stage
 - (Run git status to make sure that your working tree is clear before you start making modifications)
-- Open in VSCode and add the files you need to add/chage
+- Open in VSCode and add the files you need to add/change
 - Run git add . (or file_name). 
 - if need to revert, use git restore --staged <file>
 
@@ -26,10 +34,9 @@ Step 4 - Staged stage
 
 Step 5 - Committed Stage
 - (Run git status to make sure that your working tree is clear before you start making modifications)
-- Create a new branch by using git checkout -B <branch name> (create branch and move there)
+- Create a new branch by using git checkout -B <branch name> (create a branch and move there)
 - For branch names - use: 
     -   fix for bug fixes
     -   Update - for updates
     -   feature/name - for new features
-- Use git branch to see where you are
-
+- Use the git branch to see where you are
