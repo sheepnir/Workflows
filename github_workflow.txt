@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 General Git workflow
 -------------------------
 Step 1 - "git pull" from the main branch to ensure you have the latest updates
@@ -7,12 +7,9 @@ Step 3 - "git add README.md" or "git add ." - adding new files and changes
 Step 4 - "git commit -m "message goes here" - to commit the changes to the local branch
 Step 5 - "git push" - to move all committed changes to the remote repo
 
-GitHub workflow 
-----------------
-=======
 GitHub workflow - Remote Repo
 ----------------------------------
->>>>>>> 4b1659fdb8e2e53b4f7458023e400d6a5b8f8194
+
 Step 1 - Login to GitHub and create a new repo
 - Always have a README.md file
 - .gitignore is mandatory for code files only
@@ -44,10 +41,8 @@ Step 5 - Committed Stage
     -   fix for bug fixes
     -   Update - for updates
     -   feature/name - for new features
-<<<<<<< HEAD
+
 - Use the git branch to see where you are
-=======
-- Use git branch to see where you are
 - use git push -u origin <branch name> (move to the new branch)
 
 Step 6 - Review and Merge
@@ -68,5 +63,3 @@ Step 2 - Connect to a remote repo
 - use git remote add origin git@github.com:token/my-repo 
 - Run git pull to get all recent updates
 - Run git push origin main
-
->>>>>>> 4b1659fdb8e2e53b4f7458023e400d6a5b8f8194
