@@ -1,0 +1,8 @@
+Python installation
+1. Install python from home brew
+2. Run "type python3" to see it is running from /opt/homebrew/bin/python3
+3. Run "echo $PATH" to see that the brew path is first in line
+4. Add  "alias python=python3" and "alias pip=pip3" to .zprofile file
+5. Test by using "type python" and "type pip"
+
+Open pyton and run "import sys", "sys.execuable" to ensure that it points to the brew installation location
